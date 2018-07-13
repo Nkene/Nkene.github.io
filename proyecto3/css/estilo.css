@@ -1,0 +1,21 @@
+*{
+
+	text-align: center;
+	font-family: 'Lobster', cursive;
+
+}
+div{
+	color: grey;
+	background-image: url(../images/fondo.jpg);
+	margin: auto;
+	margin-top: 25%;
+	width: 400px;
+	height: 700px;
+}
+#cal{
+padding-top: 20px;
+}
+body{
+	/*background-color:grey;*/
+	background-image: url(../images/fondo2.png);
+}

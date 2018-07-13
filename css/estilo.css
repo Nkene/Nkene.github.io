@@ -1,26 +1,12 @@
-.juego{
-    width: 33.3%;
-    float:left;
-    opacity: 0.2;
-
-}
-.juego img{
-    width: 100%;
-}
-#control{
-    position: fixed;
-    top: 0%;
-    height: 300px ;
-    background-color: grey;
-    width: 100%;
-    opacity: 0.8;
-}
-body{
-    margin:0px;
-    padding-top: 300px;
-}
-#control img{
-    display: block;
-    height: 25%;
-    width: 40%
+div{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: grey;
+    background-color: pink;
+    margin: auto;
+    
 }

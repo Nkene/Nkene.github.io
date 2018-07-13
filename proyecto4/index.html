@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ejemplo</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	
+	<script src="js/examen.js"></script>
+</head>
+<body>
+	<div>
+		<form>
+			<h1>FORMULARIO</h1>
+			<br><br>
+			<strong>Nombre </strong><input type="text" id="nombre" placeholder="Nombre">
+			<strong>DNI </strong><input type="text" id="dni" placeholder="DNI"><br><br>
+			<strong>Año de Nacimiento </strong><input type="number" id="anyo" >
+			<strong>Numero de telefono </strong><input type="tel" id="telefono"><br><br>
+			<strong>Email </strong> <input type="email"  id="email">
+			<br><br>
+			<strong>Preferencia de contacto:</strong>
+			<br>
+			<input type="radio" name="contacto" id="contacto1" checked>Telefono
+			<input type="radio" name="contacto" id="contacto2">Email
+			<input type="radio" name="contacto" id="contacto3">Correo Postal
+			<br>
+			<h3>Selección de cursos:</h3>
+			<input type="checkbox" name="curso" id="html">HTML5
+			<input type="checkbox" name="curso" id="css">CSS3
+			<input type="checkbox" name="curso" id="java1">Introduccion a JavaScript
+			<input type="checkbox" name="curso" id="java2">JavaScript avanzado
+			<input type="checkbox" name="curso" id="boost">BOOSTRAP
+			<input type="checkbox" name="curso" id="query">JQUERY
+			<input type="checkbox" name="curso" id="angular">ANGULAR5
+			<br><br>
+			<input  class="btn" type="button" value="validar" onclick="validar()">
+		</form>
+		<span id="alerta"></span><br><br>
+		<span id="confirmar"></span>
+	</div>
+		
+	
+</body>
+</html>

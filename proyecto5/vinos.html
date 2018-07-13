@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurante</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	<script type="text/javascript">
+		function vino1(){
+			var des =document.getElementById("descripción");
+			des.innerHTML="Vino tinto obtenido de una ladera sur que nace de una viña de unos 75 años de edad. Las uvas proceden exclusivamente de una sola parcela de la finca de Bernabeleva. Aunque no cuentan con la certificación, este viñedo se cultiva de forma orgánica. Aroma a hierbas de monte, expresión frutal y recuerdo de sotobosque. En boca es potente, sabroso y complejo.";
+		}
+		function vino2(){
+			var des =document.getElementById("descripción");
+			des.innerHTML="Elaborado por Bodegas Antídoto, es un vino tinto de la DO Ribera del Duero con tinto fino de 2015 y tiene un grado alcohólico de 14.5º. Según los usuarios de Uvinum, es un tinto que merece una valoración de 4,3 puntos sobre 5 y cuenta con las siguientes puntuaciones: nota peñín: 89.";
+		}
+		function vino3(){
+			var des =document.getElementById("descripción");
+			des.innerHTML="En bodega lo definen como un vino honesto, que trata de plasmar la personalidad de la Garnacha original aragonesa, la primera que se conoce en el mundo, con registros desde el siglo VII. Para su elaboración se realiza primero una viticultura orgánica sobre viñedos de entre 40 y 70 años, con la mínima intervención humana y con abono natural procedente de la cabaña ovina de la zona. En bodega se fermenta con levadura salvaje y tiene una crianza parcial en cemento. El resultado es un tinto muy asequible avalado por el grupo Jorge Ordóñez.";
+		}
+		function limpiar(){
+			var des = document.getElementById("descripción");
+			des.innerHTML ="";
+		}
+		function vino4(){
+			var desc =document.getElementById("descrip");
+			desc.innerHTML="Vino Blanco de origen Somontano, elaborado con uvas Chardonnay y criado en botella durante 6 meses.Vista: Tiene un color Amarillo Pajiz.Nariz: Aroma de manzana verde, junto con melocoton, hinojo y frutas exoticas, y tiene una nota de fondo mineral.Boca: En boca es amplio y graso con un paso limpio y fresco con gran acidez.";
+		}
+		function vino5(){
+			var desc =document.getElementById("descrip");
+			desc.innerHTML="El Valle de Guadalupe, en Ensenada Baja California, es hogar de algunas de las bodegas de vinos mexicanos más reconocidas por la calidad y sabor de los tipos que ahí se producen. En esta ocasión te ofrecemos el vino blanco Marqués de Valle. Esta botella está hecha con uva sauvignon blanc, es de sabor fresco y un poco frutal, con aromas a frutos tropicales y una acidez balanceada. Disfrútalo con pescados grasos como el salmón o con mariscos de concha, así como ensaladas con aderezos ligeros.";
+		}
+		function vino6(){
+			var desc =document.getElementById("descrip");
+			desc.innerHTML="El Valle de Guadalupe, en Ensenada Baja California, es hogar de algunas de las bodegas de vinos mexicanos más reconocidas por la calidad y sabor de los tipos que ahí se producen. En esta ocasión te ofrecemos el vino blanco Marqués de Valle. Esta botella está hecha con uva sauvignon blanc, es de sabor fresco y un poco frutal, con aromas a frutos tropicales y una acidez balanceada. Disfrútalo con pescados grasos como el salmón o con mariscos de concha, así como ensaladas con aderezos ligeros.";
+		}
+		function limp(){
+			var desc = document.getElementById("descrip");
+			desc.innerHTML ="";
+		}
+		
+	</script>
+	
+	
+	<style type="text/css">
+	* {
+		text-align: center;
+		
+	}
+		#galeria{
+			width: 640px;
+			margin:auto;
+		}
+	</style>
+
+</head>
+<body >
+	<div id="cabecera"  >
+		 
+		<ul>
+
+		 <a href="restaurante.html"><li  id="pre">El retaurante</li> </a>
+		 <a href="carta.html"><LI  id="pre">La carta</LI></a>
+		 <a href="vinos.html"><li  id="pre">Carta de vinos</li></a>
+		 <a href="donde.html"><li  id="pre">Donde estamos</li></a>
+		 <a href="registro.html"><LI id="pre">Reservación</LI></a>
+		 
+		</ul>
+	</div>
+	<h1>Vinos tintos</h1>
+	<br><br>
+	<img src="images/vino1.jpg" onmouseover="vino1()"onmouseleave="limpiar()" width="150" height="200">
+	<img src="images/vino2.jpg" onmouseover="vino2()"onmouseleave="limpiar()"  width="150" height="200">
+	<img src="images/vino3.jpg" onmouseover="vino3()"onmouseleave="limpiar()" width="150" height="200">
+	<div id="descripción">aqui ira la descripción</div>
+
+	<br><br>
+	<h1>Vinos blancos</h1>
+	<img src="images/vino4.jpg" onmouseover="vino4()"onmouseleave="limp()"  width="150" height="200">
+	<img src="images/vino5.jpg" onmouseover="vino5()"onmouseleave="limp()"  width="150" height="200">
+	<img src="images/vino6.jpg" onmouseover="vino6()"onmouseleave="limp()"  width="150" height="200">
+	<div id="descrip">aqui ira la descripción</div>
+
+	<!--<h1>Vinos tintos</h1>
+	<ol>
+		<li>Bernabeleva carril del rey </li>
+		<li>Antidoto</li>
+		<li> Garnacha de fuego</li>
+	</ol>
+	<br>
+	<h1>Vinos blanco</h1>
+	<ol>
+		<li>Bernabeleva carril del rey </li>
+		<li>Antidoto</li>
+		<li> Garnacha de fuego</li>
+		
+	</ol>-->
+	
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurante</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	
+	
+	<style type="text/css">
+	* {
+		text-align: center;
+		
+	}
+		#galeria{
+			width: 640px;
+			margin:auto;
+		}
+	</style>
+
+</head>
+<body onload="iniciar()">
+	<div id="cabecera"  >
+		 
+		<ul>
+
+		 <a href="restaurante.html"><li  id="pre">El retaurante</li> </a>
+		 <a href="carta.html"><LI  id="pre">La carta</LI></a>
+		 <a href="vinos.html"><li  id="pre">Carta de vinos</li></a>
+		 <a href="donde.html"><li  id="pre">Donde estamos</li></a>
+		 <a href="registro.html"><LI id="pre">Reservación</LI></a>
+		 
+		</ul>
+	</div>
+	<form>	
+	<fieldset><legend><STRONG>Reservación</STRONG></legend>
+		Nombre:
+		<input type="text" name="Nombre" maxlength="80" size="20" placeholder="Nombre" required="true">
+		Apellidos:
+		<input type="text" name="apelllidos">
+		<br><br>
+		Dia:
+		<input type="date" name="fecha de nacimiento" min="1950-01-01" max="2001-01-01" required="true">
+		Hora:
+		<input type="time" required="true" >
+		Nº de telefono:
+		<input type="tel" name="numero">
+		
+	
+	</fieldset>
+
+	<fieldset> <legend><STRONG>Observaciones</STRONG></legend>
+		
+	<textarea cols="50"></textarea>
+
+	</fieldset>
+	
+</div>	
+
+	
+</body>
+</html>

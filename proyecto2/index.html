@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Suscripcion a Netflix</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="js/net.js"></script>
+
+</head>
+<body>
+<div>	
+<form >
+	<img src="images/logo.png" >
+	<br>
+	<strong>Nombre</strong><input type="text" id="no" placeholder="Nombre">  <br> <br>
+	
+	<input type="radio"  id="p1"  name="pago"> <strong>Pago anual</strong>
+	<input type="radio" id="p2" name="pago" checked> <strong>Pago mensual</strong> <br><br>
+	
+	<input type="checkbox" id="ser1" name="ser1"> Series
+	<input type="checkbox"   id="ser2" name="ser2"> Peliculas
+	<input type="checkbox"  id="ser3" name= "ser3"> Documentales <br> <br>
+	
+	Fecha de Nacimiento<input type="date" id="F"> <br><br>
+	
+	<textarea name="message" rows="10" cols="30"></textarea> <br><br>
+	
+	Paises
+	<select name="paises" id="p">
+			<option  value="Venezuela">Venezuela</option>
+			<option  value="Colombia">Colombia</option>
+			<option value="España">España</option>
+			<option  value="Mordor">Mordor</option>
+	</select>
+	<br><br>
+	Numero de usuarios:
+	<select name="usuarios" id="usu" size="5">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+	</select>
+	<br><br>
+	Elige fondo
+	<input type="color" id="colorFondo">
+
+	<br><br>
+	<input type="button" id="bot"  value="Registrar" onclick="mostrar()">
+
+</form>
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,9 @@
+div{
+    color: white;
+    width: 700px;
+    height: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    background-image: url(../images/fondo.gif)
+}
